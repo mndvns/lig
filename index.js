@@ -19,16 +19,9 @@ exports = module.exports = Log;
  */
 
 function Log(name, message) {
-  var color = (function() {
-    switch (message) {
-      case 'cyan'    : return 'cyan';
-      case 'green'   : return 'green';
-      case 'blue'    : return 'blue';
-      case 'magenta' : return 'magenta';
-      case 'red'     : return 'red';
-      default        : return 'blue';
-    }
-  }());
+  var color = colors[message]
+    ? message
+    : 'blue';
 
   var args = 1;
   if (message === "blue") args += 1;
