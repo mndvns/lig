@@ -1,4 +1,3 @@
-
 ### lig
 A colorful logger.
 
@@ -13,4 +12,4 @@ A colorful logger.
   lig('hiyooooo', 'inverse', 'anything in the `colors` library is fair game');
   ```
 
-img(src="http://i.imgur.com/TazTGge.png")
+<img src="http://i.imgur.com/TazTGge.png"/>
