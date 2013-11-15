@@ -12,4 +12,4 @@ A colorful logger.
   lig('hiyooooo', 'inverse', 'anything in the `colors` library is fair game');
   ```
 
-<img src="http://i.imgur.com/TazTGge.png" width="200"/>
+<img src="http://i.imgur.com/TazTGge.png" width="500" style="margin:0 auto; display: block;"/>
